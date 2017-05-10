@@ -10,11 +10,11 @@
 
  * 孙世宝/男/1991 
  * 山东职业技术学院/计算机
- * 工作年限：3年
+ * 工作年限：5年
  * 英语：Cet-4
- * 技术博客：http://skill86.lofter.com
- * Github: https://github.com/jerryaimee
- * 职位：PHP工程师，前端工程师，项目经理。
+ * 技术博客：http://blog.skill86.com
+ * Github: https://github.com/DakerLife
+ * 职位：高级PHP工程师，项目经理。
  * 城市：上海
 
 ---
@@ -74,7 +74,3 @@
 
 
 ---
-
-##
-* [返回主页](http://jerryaimee.github.io/ "Title")
-* power by markdown.
