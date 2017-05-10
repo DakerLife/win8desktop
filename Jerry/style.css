@@ -1,0 +1,122 @@
+
+body {
+    margin: 3em 0;
+    padding: 7.5em 0 5.5em;
+    background: #004756;
+}
+ul{list-style: none;}
+.gridster {
+    width: 960px;
+    margin: 0 auto;
+    display: none;
+}
+
+.gridster .gs-w {
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.gridster .player {
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.gridster li{position: relative;overflow: hidden;opacity: 0.9}
+.cc{width: 100%;height: 100%}
+.cc p{font-size: 14px;color: #34495e;}
+.about{width: 100%;height: 100%;}
+.about p{padding:0 20px ;}
+.contact{padding:10px;background: #5cb85c;width: 100%;height: 100%}
+.contact p{color: white;border-bottom:1px solid white;padding:5px 0;}
+.ds-thread{padding:0 10px;}
+
+.slide_box{height: 140px;width:140px;overflow: hidden;}
+.slide{height: 140px;position: relative;}
+.slide p{width: 140px;height: 140px;float: left;}
+.slide img {float:left;}
+.slide span{display:none;}
+.slide_info{height: 30px;width: 100%;position: absolute;bottom: 0;left: 0;background: black;opacity: 0.8}
+.slide_info p {color: white;text-align: center;height: 30px;line-height: 30px;}
+
+.mask{width: 100%;height: 100%;position: absolute;top: 0px;left: 0px;z-index:9999;display: block;}
+.mask i{position: absolute;top:40%;left: 40%;color: white;}
+.mask label{position: absolute;bottom:0px;left: 5px;color: white;font-weight: normal}
+.bg1{background:  #99c525;}
+.bg2{background:  #8c659d;}
+.bg3{background:  #fc9721;}
+.bg4{background:  #00afd8;}
+.bg5{background:  #62c6f8;}
+.bg6{background:  #040A0F;}
+.bg7{background:  #d74980;}
+.bg8{background:  #8da356;}
+
+.social-footer{position: fixed;bottom:0;right: 0;}
+.cc .btn{margin:5px;}
+
+#resume{width: 100%;height: 100%;
+background:url(../images/resume-bg.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+}
+#resume a{font-size: 12px;position:absolute;right:10px;bottom: 10px;text-decoration: none;color: white;}
+
+/* 案例页 */
+#myWorks{background: white;padding:10px;margin:0;}
+#myWorks p{line-height: 200%;padding:10px;color: #666}
+#myWorks img{display: block;margin:15px 0;}
+
+/* loading */
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 10px;
+}
+ 
+.spinner > div {
+  background-color: #67CF22;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+   
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+ 
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+ 
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+ 
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+ 
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+ 
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
